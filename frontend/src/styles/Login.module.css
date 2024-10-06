@@ -1,0 +1,54 @@
+.loginContainer {
+    max-width: 400px; /* Ancho máximo para el contenedor del login */
+    margin: 100px auto; /* Centrando el contenedor verticalmente y horizontalmente */
+    padding: 30px; /* Espacio interno aumentado */
+    background: linear-gradient(135deg, #f0f4f8, #e1e9f0); /* Fondo degradado */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Sombra más prominente */
+    text-align: center; /* Centrar texto */
+  }
+  
+  .loginTitle {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 2rem; /* Tamaño de fuente aumentado */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  .logo {
+    margin-bottom: 20px; /* Espacio debajo del logo */
+    width: 140px; /* Ancho del logo */
+  }
+  
+  .loginInput {
+    width: 100%; /* Ancho completo */
+    padding: 12px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espacio entre campos */
+    border: 1px solid #cb6ce5; /* Bordes del input */
+    border-radius: 6px; /* Bordes redondeados */
+    transition: border-color 0.2s, box-shadow 0.2s; /* Transiciones */
+  }
+  
+  .loginInput:focus {
+    border-color: #a0549b; /* Color del borde al hacer foco */
+    outline: none; /* Quitar el contorno predeterminado */
+    box-shadow: 0 0 5px rgba(203, 108, 229, 0.5); /* Sombra al hacer foco */
+  }
+  
+  .loginButton {
+    width: 100%; /* Ancho completo */
+    padding: 12px; /* Espaciado interno */
+    background-color: #cb6ce5; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 6px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones */
+  }
+  
+  .loginButton:hover {
+    background-color: #a0549b; /* Color de fondo al pasar el cursor */
+    transform: translateY(-2px); /* Ligera elevación al pasar */
+  }
+  

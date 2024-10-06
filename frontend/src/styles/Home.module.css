@@ -1,0 +1,80 @@
+/* Cambia la fuente a Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.body {
+    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.sectionHeader {
+    margin-bottom: 20px;
+    font-size: 1.5rem; /* Tamaño de fuente más grande para encabezados de sección */
+    color: #333; /* Color más oscuro para mayor legibilidad */
+}
+
+.chartContainer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px; /* Espacio entre tarjetas */
+}
+
+.entities, .validation, .resources, .collaboration {
+    margin-top: 50px;
+}
+
+.entityBox, .validationBox, .resourceBox, .collaborationBox {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a columna */
+    gap: 20px; /* Espacio entre tarjetas */
+}
+
+.entityCard, .validationCard, .resourceCard, .collaborationCard {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px; /* Ajusta el padding */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.entityCard:hover, .validationCard:hover, .resourceCard:hover, .collaborationCard:hover {
+    transform: translateY(-5px);
+}
+
+.entityCard h3, .validationCard h3, .resourceCard h3, .collaborationCard h3 {
+    font-size: 1.2rem; /* Tamaño de fuente para los títulos */
+    color: #333; /* Color del texto más oscuro */
+}
+
+.link {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Mantiene el color del texto */
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.sectionHeader {
+  margin-bottom: 20px;
+}
+
+.entities, .validation, .resources, .collaboration {
+  margin-top: 50px;
+}
+
+.entityBox, .validationBox, .resourceBox, .collaborationBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.entityCard, .validationCard, .resourceCard, .collaborationCard {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.2s;
+}
+
+.entityCard:hover, .validationCard:hover, .resourceCard:hover, .collaborationCard:hover {
+  transform: translateY(-5px);
+}
